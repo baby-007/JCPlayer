@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE03E4AC67DD503A38445B400B09768 /* JCPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B4E7253AE3A4B3C15A09AA515A15C /* JCPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		319FFDBA2146087BF21E455846491009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		445E1801BAA86B5C1FDDD0D457E38B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FA895A10A6726BAE01EA25B7CE4933A /* JCPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31590EA622E4AC3F13DAD432D727CCF9 /* JCPlayer-dummy.m */; };
+		68B9160AF7E61D6A024F22854BE25750 /* Pods-JCPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0233BD353C164AD419828FDFB2886153 /* Pods-JCPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82437573648CF6286E4A751F5DD3F54C /* QueuePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B424F4ADF3256AD8DD0A1092548A5E /* QueuePlayer.swift */; };
+		8FFBA38729AFBE518345D6F591405F98 /* Pods-JCPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B0222D43F6DC6A1F7CE5DC7684D83B /* Pods-JCPlayer_Example-dummy.m */; };
+		90B5F5F1E641A8CADBF9072231720D08 /* QueuePlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB08AD158608835A8C205E3EF36983 /* QueuePlayerDelegate.swift */; };
+		A38A6A6AA01E36DD09BA3B9D0BEEB52C /* JCPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4864FBBB82E9EB4FBB27A99C449ED /* JCPlayer.swift */; };
+		C038ED1E96E3832EBE6D614AE38C61E6 /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BEED2F177E79C84444AFFE8D2533E5 /* PlayerDelegate.swift */; };
+		D3A94D4D2779BC00737D14BD450A8681 /* Pods-JCPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25787DC94C47B18BAEBE5AC12EFAB44A /* Pods-JCPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67FFABA1DE23BFFA59EAA060A959869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED150D6A18CF5A5FB2ECAE0B743BDFA2 /* Pods-JCPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB0100A531425A189D96B1D08CE8821 /* Pods-JCPlayer_Tests-dummy.m */; };
+		FA85F14075A384B4F1E8CAD982A627A5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62894DA7F37FB09CD9F5AEA23D66CDF8 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A868E2D16EEAF4AEF443A8382AB280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EBB23DDF68BD49D155BE63D6FF186D;
+			remoteInfo = "Pods-JCPlayer_Example";
+		};
+		FE3995A5602225CF923F4562F637B44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FC33EC25035C19EF0EC89E3006C038;
+			remoteInfo = JCPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0233BD353C164AD419828FDFB2886153 /* Pods-JCPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		040E34FAAA181FD2F78885BC1741FEE8 /* Pods-JCPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		0EEB08AD158608835A8C205E3EF36983 /* QueuePlayerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueuePlayerDelegate.swift; path = JCPlayer/Classes/QueuePlayerDelegate.swift; sourceTree = "<group>"; };
+		11BEED2F177E79C84444AFFE8D2533E5 /* PlayerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerDelegate.swift; path = JCPlayer/Classes/PlayerDelegate.swift; sourceTree = "<group>"; };
+		1A40DC2BEB9789425048C3B4EB1E3D87 /* Pods-JCPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25787DC94C47B18BAEBE5AC12EFAB44A /* Pods-JCPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		26B424F4ADF3256AD8DD0A1092548A5E /* QueuePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueuePlayer.swift; path = JCPlayer/Classes/QueuePlayer.swift; sourceTree = "<group>"; };
+		2B0DC84C235CAAE38D5A1A12E39EBA9B /* Pods-JCPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCPlayer_Example"; path = Pods_JCPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31590EA622E4AC3F13DAD432D727CCF9 /* JCPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCPlayer-dummy.m"; sourceTree = "<group>"; };
+		38551A9B4C6145322ABB45B8F5DA1657 /* Pods-JCPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E555B56459DE96D6297694B4EC32E14 /* JCPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		595D7A5C97791951B69A02AAF1BCE903 /* JCPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCPlayer.modulemap; sourceTree = "<group>"; };
+		5AC9DE2C1F0C3C4914262B6FD7189421 /* Pods-JCPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		6162212B02DEE8DB70BD3A0317DF3BD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		62894DA7F37FB09CD9F5AEA23D66CDF8 /* PlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerView.swift; path = JCPlayer/Classes/PlayerView.swift; sourceTree = "<group>"; };
+		721824258DC60E3E1A02C2C2DEF74733 /* JCPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCPlayer-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75268D106000ED6C66710DA6CEDA9619 /* JCPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCPlayer; path = JCPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9833446A4ABD333A4DCD8E9B7F6404 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		970221F891DF03A0842797D50D818A87 /* Pods-JCPlayer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCPlayer_Tests"; path = Pods_JCPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B0222D43F6DC6A1F7CE5DC7684D83B /* Pods-JCPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		9837E541983D3C9FEEC2AC2D9DE48233 /* Pods-JCPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		9932D6DD118C9C954D76B15BFAA6A946 /* Pods-JCPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AB7A8AB62F505FC08474960966225EE /* Pods-JCPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B4B4E7253AE3A4B3C15A09AA515A15C /* JCPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCPlayer-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B006DEA88077B1F80FCEFE1CE25AF428 /* Pods-JCPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2C4864FBBB82E9EB4FBB27A99C449ED /* JCPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCPlayer.swift; path = JCPlayer/Classes/JCPlayer.swift; sourceTree = "<group>"; };
+		B3434F6856448BBEFED0EAB73E9D0C2C /* Pods-JCPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C11ACC4960C661C91EAE701FCEF8F1FF /* JCPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JCPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C55D59B0600BA8623139A9F2D9617EC4 /* JCPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCPlayer-prefix.pch"; sourceTree = "<group>"; };
+		D0F2085EA16A7A27CD0CD645652D0DF4 /* Pods-JCPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3F0F903D8C523BC362A3725CE475C10 /* Pods-JCPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		FAC098E086B5769BC79471112587A3FB /* Pods-JCPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC77A0B20AAA2DE26F06E4CCC830077E /* Pods-JCPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC832AFF860F836D53D35E2243CDB03C /* JCPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCPlayer.release.xcconfig; sourceTree = "<group>"; };
+		FEB0100A531425A189D96B1D08CE8821 /* Pods-JCPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02ECCE26EC5451A3853AD695FFAAC030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319FFDBA2146087BF21E455846491009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBAA67D4534C46713A834AC6B481E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E1801BAA86B5C1FDDD0D457E38B34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9331E289B33623321E7068A98F4E190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67FFABA1DE23BFFA59EAA060A959869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107C39799ED2B2341E9E7F5F09E76185 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12FE7A4A63C6B6C6E20EEB9032057F6E /* JCPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		12FE7A4A63C6B6C6E20EEB9032057F6E /* JCPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4864FBBB82E9EB4FBB27A99C449ED /* JCPlayer.swift */,
+				11BEED2F177E79C84444AFFE8D2533E5 /* PlayerDelegate.swift */,
+				62894DA7F37FB09CD9F5AEA23D66CDF8 /* PlayerView.swift */,
+				26B424F4ADF3256AD8DD0A1092548A5E /* QueuePlayer.swift */,
+				0EEB08AD158608835A8C205E3EF36983 /* QueuePlayerDelegate.swift */,
+				57FC8FE1357C580A64C4CAA9841F494B /* Pod */,
+				B116168AB66934873C06C604BDC8A3B9 /* Support Files */,
+			);
+			name = JCPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57FC8FE1357C580A64C4CAA9841F494B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C11ACC4960C661C91EAE701FCEF8F1FF /* JCPlayer.podspec */,
+				6162212B02DEE8DB70BD3A0317DF3BD1 /* LICENSE */,
+				7C9833446A4ABD333A4DCD8E9B7F6404 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7198168A2CF68FE639F8B7DFA25A2857 /* Pods-JCPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9837E541983D3C9FEEC2AC2D9DE48233 /* Pods-JCPlayer_Tests.modulemap */,
+				FAC098E086B5769BC79471112587A3FB /* Pods-JCPlayer_Tests-acknowledgements.markdown */,
+				B006DEA88077B1F80FCEFE1CE25AF428 /* Pods-JCPlayer_Tests-acknowledgements.plist */,
+				FEB0100A531425A189D96B1D08CE8821 /* Pods-JCPlayer_Tests-dummy.m */,
+				D3F0F903D8C523BC362A3725CE475C10 /* Pods-JCPlayer_Tests-Info.plist */,
+				0233BD353C164AD419828FDFB2886153 /* Pods-JCPlayer_Tests-umbrella.h */,
+				FC77A0B20AAA2DE26F06E4CCC830077E /* Pods-JCPlayer_Tests.debug.xcconfig */,
+				38551A9B4C6145322ABB45B8F5DA1657 /* Pods-JCPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCPlayer_Tests";
+			path = "Target Support Files/Pods-JCPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		77226E9B45E6DC7803C5C28A99C3B1A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B097C171A1A27B7B258B605983D32 /* Pods-JCPlayer_Example */,
+				7198168A2CF68FE639F8B7DFA25A2857 /* Pods-JCPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE9B097C171A1A27B7B258B605983D32 /* Pods-JCPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5AC9DE2C1F0C3C4914262B6FD7189421 /* Pods-JCPlayer_Example.modulemap */,
+				D0F2085EA16A7A27CD0CD645652D0DF4 /* Pods-JCPlayer_Example-acknowledgements.markdown */,
+				9AB7A8AB62F505FC08474960966225EE /* Pods-JCPlayer_Example-acknowledgements.plist */,
+				97B0222D43F6DC6A1F7CE5DC7684D83B /* Pods-JCPlayer_Example-dummy.m */,
+				1A40DC2BEB9789425048C3B4EB1E3D87 /* Pods-JCPlayer_Example-frameworks.sh */,
+				040E34FAAA181FD2F78885BC1741FEE8 /* Pods-JCPlayer_Example-Info.plist */,
+				25787DC94C47B18BAEBE5AC12EFAB44A /* Pods-JCPlayer_Example-umbrella.h */,
+				B3434F6856448BBEFED0EAB73E9D0C2C /* Pods-JCPlayer_Example.debug.xcconfig */,
+				9932D6DD118C9C954D76B15BFAA6A946 /* Pods-JCPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-JCPlayer_Example";
+			path = "Target Support Files/Pods-JCPlayer_Example";
+			sourceTree = "<group>";
+		};
+		B116168AB66934873C06C604BDC8A3B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				595D7A5C97791951B69A02AAF1BCE903 /* JCPlayer.modulemap */,
+				31590EA622E4AC3F13DAD432D727CCF9 /* JCPlayer-dummy.m */,
+				721824258DC60E3E1A02C2C2DEF74733 /* JCPlayer-Info.plist */,
+				C55D59B0600BA8623139A9F2D9617EC4 /* JCPlayer-prefix.pch */,
+				9B4B4E7253AE3A4B3C15A09AA515A15C /* JCPlayer-umbrella.h */,
+				4E555B56459DE96D6297694B4EC32E14 /* JCPlayer.debug.xcconfig */,
+				FC832AFF860F836D53D35E2243CDB03C /* JCPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCPlayer";
+			sourceTree = "<group>";
+		};
+		B2695D1BE110870FB146D6FCD7AB7F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75268D106000ED6C66710DA6CEDA9619 /* JCPlayer */,
+				2B0DC84C235CAAE38D5A1A12E39EBA9B /* Pods-JCPlayer_Example */,
+				970221F891DF03A0842797D50D818A87 /* Pods-JCPlayer_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				107C39799ED2B2341E9E7F5F09E76185 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B2695D1BE110870FB146D6FCD7AB7F5F /* Products */,
+				77226E9B45E6DC7803C5C28A99C3B1A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41ADCA1A9358795BDD6D3E1F068A8BC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE03E4AC67DD503A38445B400B09768 /* JCPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8730DBACC41A5C77FB8531089210BC0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B9160AF7E61D6A024F22854BE25750 /* Pods-JCPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF744B3A38AE2E3F9DB522629E7E6AF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A94D4D2779BC00737D14BD450A8681 /* Pods-JCPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18EBB23DDF68BD49D155BE63D6FF186D /* Pods-JCPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DA502353FE17DA74F13DAD65B6FBB2 /* Build configuration list for PBXNativeTarget "Pods-JCPlayer_Example" */;
+			buildPhases = (
+				CF744B3A38AE2E3F9DB522629E7E6AF2 /* Headers */,
+				B4D2E7B6651DEC998A54B4934DA540DE /* Sources */,
+				02ECCE26EC5451A3853AD695FFAAC030 /* Frameworks */,
+				C19AF2799F8E2D9A02D99A7BEB46EF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08791463CCE447F7A281C0C733A9EF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPlayer_Example";
+			productName = Pods_JCPlayer_Example;
+			productReference = 2B0DC84C235CAAE38D5A1A12E39EBA9B /* Pods-JCPlayer_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E4C36556FCA4014B114BDE8D9AAE8A /* Pods-JCPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A15661BF807A7EA54700DD75B83C5C /* Build configuration list for PBXNativeTarget "Pods-JCPlayer_Tests" */;
+			buildPhases = (
+				8730DBACC41A5C77FB8531089210BC0D /* Headers */,
+				184C4D55DA1F5ACA51443699D0CF445C /* Sources */,
+				6DBAA67D4534C46713A834AC6B481E44 /* Frameworks */,
+				0B3467578BD05891DCB016FFE1EAD196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873640F2EC223348DC7C028909E1E786 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPlayer_Tests";
+			productName = Pods_JCPlayer_Tests;
+			productReference = 970221F891DF03A0842797D50D818A87 /* Pods-JCPlayer_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		91FC33EC25035C19EF0EC89E3006C038 /* JCPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636636E7CA26C75F1C01DB2BDE06D8DA /* Build configuration list for PBXNativeTarget "JCPlayer" */;
+			buildPhases = (
+				41ADCA1A9358795BDD6D3E1F068A8BC7 /* Headers */,
+				7E90B453000DC01402C6C03326CC2E71 /* Sources */,
+				B9331E289B33623321E7068A98F4E190 /* Frameworks */,
+				F7C2007CA6FE63C5FBFD245BCBAE0058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCPlayer;
+			productName = JCPlayer;
+			productReference = 75268D106000ED6C66710DA6CEDA9619 /* JCPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B2695D1BE110870FB146D6FCD7AB7F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FC33EC25035C19EF0EC89E3006C038 /* JCPlayer */,
+				18EBB23DDF68BD49D155BE63D6FF186D /* Pods-JCPlayer_Example */,
+				56E4C36556FCA4014B114BDE8D9AAE8A /* Pods-JCPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B3467578BD05891DCB016FFE1EAD196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AF2799F8E2D9A02D99A7BEB46EF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C2007CA6FE63C5FBFD245BCBAE0058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184C4D55DA1F5ACA51443699D0CF445C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED150D6A18CF5A5FB2ECAE0B743BDFA2 /* Pods-JCPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90B453000DC01402C6C03326CC2E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA895A10A6726BAE01EA25B7CE4933A /* JCPlayer-dummy.m in Sources */,
+				A38A6A6AA01E36DD09BA3B9D0BEEB52C /* JCPlayer.swift in Sources */,
+				C038ED1E96E3832EBE6D614AE38C61E6 /* PlayerDelegate.swift in Sources */,
+				FA85F14075A384B4F1E8CAD982A627A5 /* PlayerView.swift in Sources */,
+				82437573648CF6286E4A751F5DD3F54C /* QueuePlayer.swift in Sources */,
+				90B5F5F1E641A8CADBF9072231720D08 /* QueuePlayerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D2E7B6651DEC998A54B4934DA540DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFBA38729AFBE518345D6F591405F98 /* Pods-JCPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873640F2EC223348DC7C028909E1E786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPlayer_Example";
+			target = 18EBB23DDF68BD49D155BE63D6FF186D /* Pods-JCPlayer_Example */;
+			targetProxy = C6A868E2D16EEAF4AEF443A8382AB280 /* PBXContainerItemProxy */;
+		};
+		B08791463CCE447F7A281C0C733A9EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCPlayer;
+			target = 91FC33EC25035C19EF0EC89E3006C038 /* JCPlayer */;
+			targetProxy = FE3995A5602225CF923F4562F637B44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08ADA68FD9FDA0EEA708984A78E15E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38551A9B4C6145322ABB45B8F5DA1657 /* Pods-JCPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPlayer_Tests/Pods-JCPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPlayer_Tests/Pods-JCPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		302B1488CDA9A5296355D0AFA169BB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9932D6DD118C9C954D76B15BFAA6A946 /* Pods-JCPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPlayer_Example/Pods-JCPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPlayer_Example/Pods-JCPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D24ABE3C2A46FCF99DD09BCDFBC8733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC832AFF860F836D53D35E2243CDB03C /* JCPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCPlayer/JCPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCPlayer/JCPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCPlayer/JCPlayer.modulemap";
+				PRODUCT_MODULE_NAME = JCPlayer;
+				PRODUCT_NAME = JCPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4A7D351852E434C5C9C0548C43F1B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC77A0B20AAA2DE26F06E4CCC830077E /* Pods-JCPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPlayer_Tests/Pods-JCPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPlayer_Tests/Pods-JCPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE7AB0B4ECC01AB50787C9797162715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3434F6856448BBEFED0EAB73E9D0C2C /* Pods-JCPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPlayer_Example/Pods-JCPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPlayer_Example/Pods-JCPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D23334139980F9E7BDD916ECF2504B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E555B56459DE96D6297694B4EC32E14 /* JCPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCPlayer/JCPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCPlayer/JCPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCPlayer/JCPlayer.modulemap";
+				PRODUCT_MODULE_NAME = JCPlayer;
+				PRODUCT_NAME = JCPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DA502353FE17DA74F13DAD65B6FBB2 /* Build configuration list for PBXNativeTarget "Pods-JCPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7AB0B4ECC01AB50787C9797162715E /* Debug */,
+				302B1488CDA9A5296355D0AFA169BB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636636E7CA26C75F1C01DB2BDE06D8DA /* Build configuration list for PBXNativeTarget "JCPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23334139980F9E7BDD916ECF2504B42 /* Debug */,
+				4D24ABE3C2A46FCF99DD09BCDFBC8733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A15661BF807A7EA54700DD75B83C5C /* Build configuration list for PBXNativeTarget "Pods-JCPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A7D351852E434C5C9C0548C43F1B33 /* Debug */,
+				08ADA68FD9FDA0EEA708984A78E15E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

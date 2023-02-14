@@ -1,0 +1,6 @@
+framework module JCPlayer {
+  umbrella header "JCPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

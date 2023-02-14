@@ -1,0 +1,16 @@
+PODS:
+  - JCPlayer (0.1.0)
+
+DEPENDENCIES:
+  - JCPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  JCPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCPlayer: b1eb3a758b63ed4d0314200810974f8d41308430
+
+PODFILE CHECKSUM: afcf72d196583253ceabd65c937f58954b1bc7eb
+
+COCOAPODS: 1.11.3

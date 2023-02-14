@@ -1,0 +1,6 @@
+framework module Pods_JCPlayer_Example {
+  umbrella header "Pods-JCPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
