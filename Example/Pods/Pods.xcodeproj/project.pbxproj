@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2EE03E4AC67DD503A38445B400B09768 /* JCPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B4E7253AE3A4B3C15A09AA515A15C /* JCPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		319FFDBA2146087BF21E455846491009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36A525D7299CD9F4000EF119 /* PlayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A525D1299CD9F3000EF119 /* PlayType.swift */; };
+		36A525D8299CD9F4000EF119 /* ArrayPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A525D2299CD9F3000EF119 /* ArrayPlayer.swift */; };
+		36A525D9299CD9F4000EF119 /* AutoMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A525D3299CD9F4000EF119 /* AutoMediaPlayer.swift */; };
+		36A525DA299CD9F4000EF119 /* GlobalArrayPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A525D4299CD9F4000EF119 /* GlobalArrayPlayer.swift */; };
 		445E1801BAA86B5C1FDDD0D457E38B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5FA895A10A6726BAE01EA25B7CE4933A /* JCPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31590EA622E4AC3F13DAD432D727CCF9 /* JCPlayer-dummy.m */; };
 		68B9160AF7E61D6A024F22854BE25750 /* Pods-JCPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0233BD353C164AD419828FDFB2886153 /* Pods-JCPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +54,10 @@
 		26B424F4ADF3256AD8DD0A1092548A5E /* QueuePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueuePlayer.swift; path = JCPlayer/Classes/QueuePlayer.swift; sourceTree = "<group>"; };
 		2B0DC84C235CAAE38D5A1A12E39EBA9B /* Pods-JCPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCPlayer_Example"; path = Pods_JCPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31590EA622E4AC3F13DAD432D727CCF9 /* JCPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCPlayer-dummy.m"; sourceTree = "<group>"; };
+		36A525D1299CD9F3000EF119 /* PlayType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayType.swift; sourceTree = "<group>"; };
+		36A525D2299CD9F3000EF119 /* ArrayPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayPlayer.swift; sourceTree = "<group>"; };
+		36A525D3299CD9F4000EF119 /* AutoMediaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMediaPlayer.swift; sourceTree = "<group>"; };
+		36A525D4299CD9F4000EF119 /* GlobalArrayPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalArrayPlayer.swift; sourceTree = "<group>"; };
 		38551A9B4C6145322ABB45B8F5DA1657 /* Pods-JCPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E555B56459DE96D6297694B4EC32E14 /* JCPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		595D7A5C97791951B69A02AAF1BCE903 /* JCPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCPlayer.modulemap; sourceTree = "<group>"; };
@@ -119,6 +127,7 @@
 		12FE7A4A63C6B6C6E20EEB9032057F6E /* JCPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				36A525CE299CD98C000EF119 /* ArrayPlayer */,
 				B2C4864FBBB82E9EB4FBB27A99C449ED /* JCPlayer.swift */,
 				11BEED2F177E79C84444AFFE8D2533E5 /* PlayerDelegate.swift */,
 				62894DA7F37FB09CD9F5AEA23D66CDF8 /* PlayerView.swift */,
@@ -129,6 +138,18 @@
 			);
 			name = JCPlayer;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		36A525CE299CD98C000EF119 /* ArrayPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				36A525D2299CD9F3000EF119 /* ArrayPlayer.swift */,
+				36A525D3299CD9F4000EF119 /* AutoMediaPlayer.swift */,
+				36A525D4299CD9F4000EF119 /* GlobalArrayPlayer.swift */,
+				36A525D1299CD9F3000EF119 /* PlayType.swift */,
+			);
+			name = ArrayPlayer;
+			path = JCPlayer/Classes/ArrayPlayer;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -387,10 +408,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A525D9299CD9F4000EF119 /* AutoMediaPlayer.swift in Sources */,
 				5FA895A10A6726BAE01EA25B7CE4933A /* JCPlayer-dummy.m in Sources */,
 				A38A6A6AA01E36DD09BA3B9D0BEEB52C /* JCPlayer.swift in Sources */,
 				C038ED1E96E3832EBE6D614AE38C61E6 /* PlayerDelegate.swift in Sources */,
+				36A525D7299CD9F4000EF119 /* PlayType.swift in Sources */,
 				FA85F14075A384B4F1E8CAD982A627A5 /* PlayerView.swift in Sources */,
+				36A525DA299CD9F4000EF119 /* GlobalArrayPlayer.swift in Sources */,
+				36A525D8299CD9F4000EF119 /* ArrayPlayer.swift in Sources */,
 				82437573648CF6286E4A751F5DD3F54C /* QueuePlayer.swift in Sources */,
 				90B5F5F1E641A8CADBF9072231720D08 /* QueuePlayerDelegate.swift in Sources */,
 			);
